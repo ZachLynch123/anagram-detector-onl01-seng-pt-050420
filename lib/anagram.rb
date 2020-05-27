@@ -23,7 +23,7 @@ class Anagram
         @correct_word.flatten
       end
     end
-    @correct_word
+    @correct_word.flatten
   end
   
   
