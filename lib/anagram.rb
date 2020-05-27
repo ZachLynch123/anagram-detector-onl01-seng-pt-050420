@@ -16,7 +16,7 @@ class Anagram
     words.each do |word|
       split_word = word.split("")
       original_word = original_word.sort
-      split_word = word.sort 
+      split_word = split_word.sort 
       if split_word == original_word
         @correct_word << word.join
       else
