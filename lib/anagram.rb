@@ -18,7 +18,8 @@ class Anagram
       original_word = original_word.sort
       word = word.sort 
       if word == original_word
-        @correct_word <<  word
+        word.join
+        
       else
         @correct_word 
       end
