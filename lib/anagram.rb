@@ -5,6 +5,7 @@ class Anagram
   
   def initialize(word)
     @word = word
+    @correct_word = []
     
   end
   
