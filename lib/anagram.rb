@@ -14,10 +14,10 @@ class Anagram
     original_word = @word.split("")
     
     words.each do |word|
-      word = word.split("")
+      split_word = word.split("")
       original_word = original_word.sort
-      word = word.sort 
-      if word == original_word
+      split_word = word.sort 
+      if split_word == original_word
         @correct_word << word.join
       else
         @correct_word.flatten
